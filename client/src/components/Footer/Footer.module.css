@@ -1,0 +1,12 @@
+.Footer {
+  grid-area: footer;
+  color: white;
+  background: #135255;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
