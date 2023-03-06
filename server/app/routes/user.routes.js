@@ -53,7 +53,7 @@ module.exports = function (app) {
     filename = sanitize(filename);
     if (filename == null) filename = "resume";
     var extension = user.resume.split(".");
-    const ext = extension[entension.length - 1];
+    const ext = extension[extension.length - 1];
     const contentType = ext === "pdf" ? "application/pdf" : "application/docx";
     try {
       let fileToSend = await getFileStreamFromS3(user.resume);
